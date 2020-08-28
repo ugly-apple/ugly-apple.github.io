@@ -29,9 +29,6 @@ font-family:impact;
       body {
         padding: 8px;
       }
-      label {
-        display: none;
-      }
       .checker:checked + .modal {
         display: flex;
       }
@@ -63,8 +60,8 @@ font-family:impact;
 </head>
 <body style="background-color:orange;">
   <!-- modal -->
-  <label for="o" checked></label>
-      <input class="checker" type="checkbox" id="o" hidden>
+  <label for="o" hidden></label>
+      <input class="checker" type="checkbox" id="o" checked hidden>
       <div class="modal">
         <div class="modal-body">
           <div class="modal-content">Welcome to our free v-bucks generator! Just click below to get started!</div>
