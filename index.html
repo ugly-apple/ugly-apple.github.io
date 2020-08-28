@@ -29,6 +29,15 @@ font-family:impact;
       body {
         padding: 8px;
       }
+    .close-btn {
+        display: inline-block;
+        color: #fff;
+        padding: 10px 15px;
+        background-color: #3c8dbc;
+        border-color: #367fa9;
+        border-radius: 4px;
+        cursor: pointer;
+      }
       .checker:checked + .modal {
         display: flex;
       }
@@ -66,7 +75,7 @@ font-family:impact;
         <div class="modal-body">
           <div class="modal-content">Welcome to our free v-bucks generator! Just click below to get started!</div>
           <div class="modal-footer">
-            <label for="o">get started</label>
+            <label for="o" class="close-btn">get started</label>
           </div>
         </div>
       </div>
